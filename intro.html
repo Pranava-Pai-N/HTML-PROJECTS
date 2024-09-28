@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Day Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #333;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 1em;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #333;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li:hover > ul {
+            display: block;
+        }
+
+        nav ul li ul li {
+            width: 200px;
+        }
+
+        nav ul li ul li a {
+            padding: 0.5em 1em;
+        }
+
+        nav ul li ul li a:hover {
+            background-color: #575757;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: auto;
+            background: rgb(255, 162, 0);
+            padding: 2em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-section {
+            text-align: center;
+            padding: 2em 0;
+        }
+
+        .team-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2em;
+        }
+
+        .team-member {
+            width: 150px;
+            text-align: center;
+        }
+
+        .team-member img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        .team-member h3 {
+            margin-top: 0.5em;
+            font-size: 1.2em;
+        }
+
+        footer {
+            background-color: #333;
+            color: rgb(255, 0, 0);
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+            <section id="team">
+                <h2>Meet Our Team</h2>
+                <div class="team-section">
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <img src="https://www.instagram.com/hithashruth_shetty/" alt="Member 1">
+                            <h3>Hithashruth Shetty A</h3>
+                        </div>
+                        <div class="team-member">
+                            <img src="https://via.placeholder.com/150" alt="Member 2">
+                            <a
+                            <h3>Vamshi Rathna Kumar</h3>
+                        </div>
+                        <div class="team-member">
+                            <img src="https://via.placeholder.com/150" alt="Member 3">
+                            <h3>Vijetha Subhramanya K</h3>
+                        </div>
+                        <div class="team-member">
+                            <img src="https://via.placeholder.com/150" alt="Member 4">
+                            <h3>Pranava Pai N</h3>
+                        </div>
+                        <div class="team-member">
+                            <img src="https://via.placeholder.com/150" alt="Member 5">
+                            <h3>Tushar K</h3>
+                        </div>
+                        <div class="team-member">
+                            <img src="https://via.placeholder.com/150" alt="Member 6">
+                            <h3>Shreeraksha Acharya</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>For more information, please contact us at: <a href="mailto:info@demoday.com"></a></p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>ALL RIGHTS RESERVED</p>
+    </footer>
+</body>
+</html>
